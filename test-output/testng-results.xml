@@ -1,29 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-24T12:07:15 WET" name="Default suite" finished-at="2024-01-24T12:07:19 WET" duration-ms="3620">
+  <suite started-at="2024-01-24T15:19:08 WET" name="Suite1" finished-at="2024-01-24T15:19:17 WET" duration-ms="9399">
     <groups>
     </groups>
-    <test started-at="2024-01-24T12:07:15 WET" name="Default test" finished-at="2024-01-24T12:07:19 WET" duration-ms="3620">
-      <class name="test.ExtentReportsDemoWithTestNG">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.ExtentReportsDemoWithTestNG@54a7079e]" started-at="2024-01-24T12:07:15 WET" name="setUp" finished-at="2024-01-24T12:07:15 WET" duration-ms="155" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpTes()[pri:0, instance:test.ExtentReportsDemoWithTestNG@54a7079e]" started-at="2024-01-24T12:07:15 WET" name="setUpTes" finished-at="2024-01-24T12:07:17 WET" duration-ms="1652" status="PASS">
+    <test started-at="2024-01-24T15:19:08 WET" name="Test1" finished-at="2024-01-24T15:19:17 WET" duration-ms="9399">
+      <class name="test.TestNG_Demo">
+        <test-method is-config="true" signature="setUpTes()[pri:0, instance:test.TestNG_Demo@4c1909a3]" started-at="2024-01-24T15:19:08 WET" name="setUpTes" finished-at="2024-01-24T15:19:10 WET" duration-ms="1829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTes -->
-        <test-method signature="test1()[pri:0, instance:test.ExtentReportsDemoWithTestNG@54a7079e]" started-at="2024-01-24T12:07:17 WET" name="test1" finished-at="2024-01-24T12:07:18 WET" duration-ms="1465" status="PASS">
+        <test-method signature="googleSearch3()[pri:0, instance:test.TestNG_Demo@4c1909a3]" started-at="2024-01-24T15:19:11 WET" name="googleSearch3" finished-at="2024-01-24T15:19:17 WET" duration-ms="5544" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="finishTest()[pri:0, instance:test.ExtentReportsDemoWithTestNG@54a7079e]" started-at="2024-01-24T12:07:18 WET" name="finishTest" finished-at="2024-01-24T12:07:19 WET" duration-ms="474" status="PASS">
+        </test-method> <!-- googleSearch3 -->
+        <test-method is-config="true" signature="finishTest()[pri:0, instance:test.TestNG_Demo@4c1909a3]" started-at="2024-01-24T15:19:17 WET" name="finishTest" finished-at="2024-01-24T15:19:17 WET" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishTest -->
-      </class> <!-- test.ExtentReportsDemoWithTestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- test.TestNG_Demo -->
+      <class name="test.TestNG_Demo2">
+        <test-method is-config="true" signature="setUpTes()[pri:0, instance:test.TestNG_Demo2@47d9a273]" started-at="2024-01-24T15:19:10 WET" name="setUpTes" finished-at="2024-01-24T15:19:11 WET" duration-ms="1643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTes -->
+        <test-method signature="googleSearch1()[pri:0, instance:test.TestNG_Demo2@47d9a273]" started-at="2024-01-24T15:19:11 WET" name="googleSearch1" finished-at="2024-01-24T15:19:13 WET" duration-ms="1993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch1 -->
+        <test-method is-config="true" signature="finishTest()[pri:0, instance:test.TestNG_Demo2@47d9a273]" started-at="2024-01-24T15:19:17 WET" name="finishTest" finished-at="2024-01-24T15:19:17 WET" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+      </class> <!-- test.TestNG_Demo2 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
 </testng-results>

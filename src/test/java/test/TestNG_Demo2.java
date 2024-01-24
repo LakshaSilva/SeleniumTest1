@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import pages.GoogleSearchPage;
 
 
-public class TestNG_Demo {
+public class TestNG_Demo2 {
 
 	private static WebDriver driver = null;
 
@@ -22,24 +22,7 @@ public class TestNG_Demo {
 	}
 
 	@Test
-	public static void googleSearch2() {
-
-
-		driver.get("https://www.google.com/");
-		driver.manage().window().maximize();
-
-		//		driver.findElement(By.id("L2AGLb")).click();
-		GoogleSearchPage.button_accept(driver).click();
-		GoogleSearchPage.textbox_search(driver).sendKeys("Automation step by step");
-		GoogleSearchPage.textbox_search(driver).sendKeys(Keys.ENTER);
-		//		GoogleSearchPage.button_search(driver).sendKeys(Keys.ENTER);
-		//		WebElement textBox = driver.findElement(By.id("APjFqb"));
-		//		textBox.sendKeys("Automation Step By Step");
-		//		textBox.sendKeys(Keys.ENTER);
-
-	}
-	@Test
-	public static void googleSearch3() {
+	public static void googleSearch1() {
 
 
 		driver.get("https://www.google.com/");
